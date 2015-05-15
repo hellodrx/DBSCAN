@@ -23,7 +23,7 @@ private:
 public:
 	DBSCAN();
 	DBSCAN(vector<int> , float distance, int minPts);
-         void expandCluster( int p, vector<int> neighbour, int classNUM );//
+        void expandCluster( int p, vector<int> neighbour, int classNUM );//
 	vector<int> regionQuery( data p);//将该点邻域内的其它点的编号返回
 	void operator()( vector<int> _data);
 	void init( vector<int> _data);//将数据转变成带有bool标记的数据集
