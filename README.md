@@ -1,4 +1,6 @@
 # DBSCAN
+
+
 This is an implementation of DBSCAN algorithm[1]. DBSCAN is an unsupervised density-based cluster algorithm. It's simple yet useful. DBSCAN has two parameters --- MinPts and distance. MinPts is the quantity of neighbour points; distance is Euclidean distance between one and its neighbour.
 The whole framework  followed Wikipedia's[2] instruction. For simplicity, I only use one-dimensional integer data. But one can easily modify the data structure to satisfy your application. The implementation is very simple that one can easily understand DBSCAN's underlying idea.
 
@@ -18,6 +20,8 @@ outlier
 11400 11478 11755
  
  /*****************************************************************/
+ 
+ 
  本算法是按照WIKIPEDIA[2]的指导实现的DBSCAN[1]算法。 DBSCAN是一种基于密度的非监督分类算法。你可以通过[2]的地址详细了解其算法原理，[1]是其论文。本实现只是简单的应用了一维的整型数据说明DBSCAN的原理，你可以
  轻易的修改数据类型来符合你的应用
  
