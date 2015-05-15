@@ -9,6 +9,8 @@ The test data is 33, 36, 37, 38, 42, 43, 46, 133, 134, 137, 11400, 11478, 11755
 In this program, MinPts = 3, and distance = 15;
 
 The result 
+
+
 clusters
 0th cluster
 33 34 36 37 38 42 43 46
@@ -30,7 +32,8 @@ outlier
  测试数据33, 36, 37, 38, 42, 43, 46, 133, 134, 137, 11400, 11478, 11755
  
  结果
- clusters
+
+clusters
 0th cluster
 33 34 36 37 38 42 43 46
 
