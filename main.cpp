@@ -14,7 +14,7 @@ struct data
 class  DBSCAN
 {
 private:
-	int                   minPts;//最小
+	int                   minPts;//邻域包含的最小个数
 	float                 dis;
 	vector<data>          dataset;//整个数据集
 	vector<int>           outliers;//离群点
